@@ -1,0 +1,39 @@
+{
+  "name": "s-cli",
+  "version": "1.0.0",
+  "description": "Custom CLI scaffolding tool",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "s-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "scaffold",
+    "template",
+    "generator"
+  ],
+  "author": "shuirongshuifu <console.log.ashuai@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuirongshuifu/s-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shuirongshuifu/s-cli/issues"
+  },
+  "homepage": "https://github.com/shuirongshuifu/s-cli#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.9",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.12",
+    "ora": "^7.0.1",
+    "shelljs": "^0.8.5"
+  }
+}
