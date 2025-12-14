@@ -1,16 +1,24 @@
-# s-cli
+## s-cli-srsf
 
 Custom CLI scaffolding tool (自定义脚手架工具)
 
-## 安装
+### 安装
 
-npm install -g s-cli## 使用
+```js
+npm install -g s-cli-srsf
+```
 
-# 创建新项目
-s-cli create my-project
+## 创建新项目
 
-# 查看版本
-s-cli --version## 功能特性
+```js
+s-cli-srsf create my-project
+```
+
+## 查看版本
+
+```js
+s-cli-srsf --version
+```
 
 - 🚀 快速创建项目模板
 - 📦 自动安装依赖

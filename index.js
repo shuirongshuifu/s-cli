@@ -8,7 +8,7 @@ const pkg = fs.readJsonSync(new URL('./package.json', import.meta.url));
 
 program
   .version(pkg.version, '-v, --version')
-  .name('s-cli')
+  .name('s-cli-srsf')
   .description('自定义脚手架工具');
 
 program
