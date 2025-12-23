@@ -1,6 +1,6 @@
 {
   "name": "s-cli-srsf",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Custom CLI scaffolding tool",
   "main": "index.js",
   "type": "module",
@@ -20,12 +20,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuirongshuifu/s-cli-srsf.git"
+    "url": "git+https://github.com/shuirongshuifu/s-cli"
   },
   "bugs": {
-    "url": "https://github.com/shuirongshuifu/s-cli-srsf/issues"
+    "url": "https://github.com/shuirongshuifu/s-cli/issues"
   },
-  "homepage": "https://github.com/shuirongshuifu/s-cli-srsf#readme",
+  "homepage": "https://github.com/shuirongshuifu/s-cli#readme",
   "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^11.1.0",

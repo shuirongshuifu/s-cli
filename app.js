@@ -66,7 +66,7 @@ const app = async (name) => {
   // 拉取 Git 仓库 - 使用 git clone
   const spinner = ora('正在拉取项目...').start();
 
-  // 使用 SSH URL
+  // 使用 SSH URL (可以换成https)
   const repoUrl = `git@github.com:${TEMPLATE_REPO}.git`;
   const cloneResult = shell.exec(`git clone ${repoUrl} ${projectName}`, { silent: false });
 
